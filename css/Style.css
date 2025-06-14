@@ -17,7 +17,8 @@ a{
 .Search_input{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    padding: 0px 25px;
 }
 .searchBox {
   display: flex;
@@ -75,7 +76,13 @@ button:active {
   padding: 24px 46px 24px 26px;
   width: 100%;
 }
-
-
+.city_name h3{
+    color: aliceblue;
+    font-size: 30px;
+}
+.real_time span{
+    color: aliceblue;
+    font-size: 26px;
+}
 /* ------------------Input Box End--------------- */
 
