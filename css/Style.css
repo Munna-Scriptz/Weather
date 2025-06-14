@@ -1,0 +1,81 @@
+/* ------------------Common Css--------------- */
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../Images/Weather_Background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-height: 100vh;
+    height: 100vh;
+}
+a{
+    text-decoration: none;
+}
+/* ------------------Input Box Start--------------- */
+.Search_input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.searchBox {
+  display: flex;
+  max-width: 500px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  background: #2f3640;
+  border-radius: 50px;
+  position: relative;
+  width: 485px;
+  margin-top: 15px;
+}
+
+.searchButton {
+    color: white;
+    position: absolute;
+    right: 8px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: var(--gradient-2, linear-gradient(90deg, #747c79 0%, #a3cee7 100%));
+    border: 0;
+    display: inline-block;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    cursor: pointer;
+}
+.searchButton i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.searchButton i::before{
+    font-size: 30px;
+}
+/*hover effect*/
+button:hover {
+  color: #fff;
+  background-color: #1A1A1A;
+  box-shadow: rgba(0, 0, 0, 0.5) 0 10px 20px;
+  transform: translateY(-3px);
+}
+/*button pressing effect*/
+button:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+.searchInput {
+  border: none;
+  background: none;
+  outline: none;
+  color: white;
+  font-size: 15px;
+  padding: 24px 46px 24px 26px;
+  width: 100%;
+}
+
+
+/* ------------------Input Box End--------------- */
+
