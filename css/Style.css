@@ -1,3 +1,4 @@
+@import url('https://fonts.cdnfonts.com/css/google-sans');
 /* ------------------Common Css--------------- */
 body{
     margin: 0;
@@ -9,9 +10,14 @@ body{
     background-position: center;
     max-height: 100vh;
     height: 100vh;
+    font-family: 'Product Sans', sans-serif;
+    color: aliceblue;
 }
 a{
     text-decoration: none;
+}
+p{
+  margin: 0;
 }
 /* ------------------Input Box Start--------------- */
 .Search_input{
@@ -79,10 +85,58 @@ button:active {
 .city_name h3{
     color: aliceblue;
     font-size: 30px;
+    font-family: 'Product Sans', sans-serif;
 }
 .real_time span{
     color: aliceblue;
     font-size: 26px;
 }
 /* ------------------Input Box End--------------- */
+
+/* ------------------Main Start--------------- */
+.main{
+  padding: 0px 25px;
+  padding-top: 60px;
+}
+.temp_n_status {
+    font-size: 90px;
+    display: inline-block;
+    transform: translateX(170px);
+    color: #F2F2F2;
+}
+.temp_n_status h1{
+  display: flex;
+  align-items: start;
+  margin: 0;
+}
+.temp_n_status h1 .celc{
+  font-size: 80px;
+  text-align: center;
+}
+.wind {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 40px;
+    transform: translate(25px, 100px);
+}
+.Wind_speed{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.humidity{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+
+.we_status p{
+  font-size: 60px;
+  font-weight: 600;
+}
+/* ------------------Main End--------------- */
+
 
