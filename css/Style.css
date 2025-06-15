@@ -82,10 +82,18 @@ button:active {
   padding: 24px 46px 24px 26px;
   width: 100%;
 }
+.city_name{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
 .city_name h3{
     color: aliceblue;
     font-size: 30px;
     font-family: 'Product Sans', sans-serif;
+}
+.city_name span{
+  font-size: 30px;
 }
 .real_time span{
     color: aliceblue;
