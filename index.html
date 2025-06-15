@@ -17,6 +17,7 @@
             <h3 class="CityName">New York City</h3>
             <span>|&nbsp;</span>
             <span class="Country">US</span>
+            <img class="flags" src="https://flagsapi.com/US/flat/64.png" alt="flag" style="width: 30px;">
         </div>
 
          <div class="searchBox">
@@ -38,39 +39,56 @@
             <h1>
                 <span class="temp">20</span><span class="celc">°C</span>
                 <div class="wind">
-                    <span class="Wind_speed"><i class='bxr  bx-wind'  ></i>  9.2 Mph</span>
-                    <span class="humidity"><i class='bxr  bx-water-drop-alt'  ></i>  87%</span>
+                    <span class="Wind_speed"><i class='bxr  bx-wind'></i> <span class="Wind_meter">4.8</span> Kmp/H</span>
+                    <span class="humidity"><i class='bxr  bx-water-drop-alt'></i><span class="humidity_meter">87%</span></span>
                 </div>
             </h1>
             <div class="we_status">
-                <p>Cloudy</p>
+                <img class="Weather_conditions" src="https://openweathermap.org/img/wn/02n@2x.png" alt="Conditions">
+                <p class="Description">Cloudy</p>
             </div>
         </div>
         <!-- ------Weather Details Bottom------ -->
         <div class="weather_details">
             <div class="details_box">
-                <h2><i class='bxr  bxs-sun-bright'></i>  UV</h2>
-                <p>10 Very Strong</p>
+                <h2><i class='bxr  bxs-cloud-sun'></i>   Clouds</h2>
+                <p><span class="Clouds_meter">86</span>%</p>
             </div>
             <div class="details_box">
                 <h2><i class='bxr  bx-heat-wave'></i>  Feels Like</h2>
-                <p>23°C</p>
+                <p><span class="feels_meter">16</span>°C</p>
             </div>
             <div class="details_box">
                 <h2><i class='bxr  bxs-air'</i> </i> Air Pressure</h2>
-                <p>1000 hPa</p>
+                <p><span class="Pressure_meter">1021</span> hPa</p>
             </div>
             <div class="details_box">
                 <h2><i class='bxr  bxs-low-vision'></i>   Visibility</h2>
-                <p>8 km</p>
+                <p><span class="Visibility_meter">8</span> km</p>
             </div>
             <div class="details_box">
-                <h2><i class='bxr  bxs-filter'></i>    Air Quality</h2>
-                <p>124</p>
+                <h2><i class='bxr  bxs-tachometer'></i>  Wind Speed</h2>
+                <p><span class="Speed_meter">3.63</span> Kmp/H</p>
             </div>
         </div>
     </div>
     <!-- -----------------------Main End---------- -->
+    <!-- -----------------------Error---------- -->
+     <div class="error">
+        <div class="error__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" viewBox="0 0 24 24" height="24" fill="none">
+                <path fill="#393a37"
+                    d="m13 13h-2v-6h2zm0 4h-2v-2h2zm-1-15c-1.3132 0-2.61358.25866-3.82683.7612-1.21326.50255-2.31565 1.23915-3.24424 2.16773-1.87536 1.87537-2.92893 4.41891-2.92893 7.07107 0 2.6522 1.05357 5.1957 2.92893 7.0711.92859.9286 2.03098 1.6651 3.24424 2.1677 1.21325.5025 2.51363.7612 3.82683.7612 2.6522 0 5.1957-1.0536 7.0711-2.9289 1.8753-1.8754 2.9289-4.4189 2.9289-7.0711 0-1.3132-.2587-2.61358-.7612-3.82683-.5026-1.21326-1.2391-2.31565-2.1677-3.24424-.9286-.92858-2.031-1.66518-3.2443-2.16773-1.2132-.50254-2.5136-.7612-3.8268-.7612z">
+                </path>
+            </svg>
+        </div>
+        <div class="error__title">No Results Found. Try searching for a city</div>
+        <div class="error__close"><svg xmlns="http://www.w3.org/2000/svg" width="20" viewBox="0 0 20 20" height="20">
+                <path fill="#393a37"
+                    d="m15.8333 5.34166-1.175-1.175-4.6583 4.65834-4.65833-4.65834-1.175 1.175 4.65833 4.65834-4.65833 4.6583 1.175 1.175 4.65833-4.6583 4.6583 4.6583 1.175-1.175-4.6583-4.6583z">
+                </path>
+            </svg></div>
+    </div>
 
 
     
