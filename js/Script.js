@@ -10,6 +10,4 @@ function formatAMPM(date) {
   var strTime = hours + ':' + minutes + ' ' + amPm;
   return strTime;
 }
-
-console.log(formatAMPM(new Date));
 TimeTag.innerHTML = formatAMPM(new Date)

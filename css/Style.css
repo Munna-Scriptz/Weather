@@ -131,12 +131,36 @@ button:active {
   align-items: center;
   gap: 20px;
 }
-
-
 .we_status p{
   font-size: 60px;
   font-weight: 600;
 }
+/* -----------Weather Details Start---------- */
+.weather_details{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 50px;
+  margin-top: 70px;
+}
+.details_box{
+  background: transparent;
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  padding: 10px 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+.details_box h2{
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+.details_box p{
+  font-size: 18px;
+  font-weight: 600;
+}
+/* -----------Weather Details End---------- */
 /* ------------------Main End--------------- */
 
 
