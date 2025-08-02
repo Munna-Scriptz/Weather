@@ -58,10 +58,6 @@ This landing page project helped me sharpen core frontend skills—especially wo
 
 ---
 
-📸 Preview
-
-(Insert a screenshot or short GIF of the interface here for visual context.)
-
 
 ---
 
@@ -82,5 +78,3 @@ Improve with animations, switching themes, or geolocation features.
 📧 Email: [munnascriptz@gmail.com]
 
 🌐 LinkedIn: [yourprofile]
-
-🐦 Twitter: [yourhandle]
